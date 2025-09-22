@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "STG Test Automation",
+    "version": "1.0",
+    "description": "Run test scenarios on STG",
+    "permissions": [
+      "cookies",
+      "storage",
+      "tabs"
+    ],
+    "host_permissions": [
+      "https://stg-digital.seamlesssource.com/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    }
+  }
+  
